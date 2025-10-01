@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎙️ Converso – Voice-First AI SaaS Platform
 
-## Getting Started
+Converso is a **voice-first AI SaaS platform** that feels like your **personal tutor** — but smarter, faster, and way cooler.  
+You **talk** to it, it **talks back in real-time**.  
+No more typing. Just **learning through natural conversation**.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎧 **Voice-First Learning** – Real-time AI conversations, no typing required  
+- 📚 **Custom AI Companions** – Choose subjects (Coding, Languages, etc.)  
+- 💬 **Conversation Styles** – Casual or formal, depending on your learning style  
+- 🎙️ **Voice Selection** – Male/Female voices for a personalized experience  
+- 🔖 **Bookmarks** – Save companions & revisit them anytime  
+- 🧠 **Memory & Personality** – Companions adapt and feel more human over time  
+- 📊 **Progress Tracking** – Supabase-backed database for your learning journey  
+- 🚀 **Built for Speed & Scale** – Modern full-stack architecture  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚡ Tech Stack
 
-## Learn More
+- **Frontend**: [Next.js 14](https://nextjs.org/) + [React](https://react.dev/)  
+- **UI**: [Tailwind CSS](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)  
+- **Auth & Billing**: [Clerk](https://clerk.com/)  
+- **Voice AI**: [Vapi](https://vapi.ai/) (real-time voice streaming AI)  
+- **Database**: [Supabase](https://supabase.com/) (progress & bookmarks)  
+- **Monitoring**: [Sentry](https://sentry.io/) (real-time error tracking)  
+- **Deployment**: [Vercel](https://vercel.com/)  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Live Demo & Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔗 **Live App**: [Converso](https://web-ai-three-smoky.vercel.app/)  
+🔗 **GitHub Repo**: [Converso Source Code](https://github.com/Anas2604-web/Web_ai)  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📸 Screenshots
+Dashboard	AI Voice Companion	Bookmarks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+💡 Why I Built Converso
+I wanted to challenge myself to ship a full-stack AI SaaS product - not just a demo.
+This project pushed me into:
+
+🔥 Real-time audio streaming with AI
+
+🔐 Subscription management with Clerk + Stripe
+
+🧠 Database logic with Supabase
+
+🎨 Clean, scalable frontend design
+
+⚡ Monitoring production apps with Sentry
+
+It’s more than just a project - it’s a learning journey turned product.
+
+👨‍💻 Author
+Anas Khan
+📌 LinkedIn
+📌 GitHub
+
+⭐ Contribute
+Contributions are welcome! Fork the repo and open a PR.
+If you like this project, please star ⭐ the repo to support future work.
